@@ -1,0 +1,410 @@
+/*
+Theme Name: Ocio Sur
+Theme URI: 
+Description: Tema desarrollado para Proyecto Integrado Studium
+Version: 1.0
+Author: Miguel Ángel Jiménez Gómez
+Author URI: 
+Tags: 
+*/
+
+/*Estilos generales alineaciones para el articulo*/
+.center {text-align: center;}
+img.center, img[align="center"] {display: block;margin-left: auto;margin-right: auto;}
+.alignleft {float: left;}
+img.alignleft, img[align="left"] {float:left;margin: 2px 10px 5px 0px;}
+.alignright {float: right;}
+img.alignright, img[align="right"] {float:right;margin: 2px 0px 5px 10px;}
+.clear {clear:both;}
+hr.clear {clear:both;visibility: hidden;margin: 0px;padding: 0px;height:0px;}
+
+#articles_list article p {
+	margin-bottom:15px;
+}
+
+/*-----Estilos Generales-----*/
+*
+{
+	margin:0px;
+	padding:0px;
+}
+
+body
+{
+	color: black;
+	font-family:"Open Sans", Arial, Helvetica, sans-serif;
+	font-size:16px;
+}
+
+header, #main, footer
+{
+	margin:0px auto;
+	max-width:960px;
+	width:85%;
+}
+
+a 
+{
+	color:#006632;
+	text-decoration:none;
+}
+
+a:hover
+{
+	text-decoration:underline;
+}
+
+/*-----Header-----*/
+header
+{
+	background: #006632;
+	margin-bottom:20px;
+	margin-top:20px;
+	overflow:hidden;
+	width:85%;
+}
+
+header #logo
+{
+	float:left;
+	width:30%;
+}
+
+header #logo p
+{
+	color:#7FB298;
+	font-size:4rem;
+	font-weight:bolder;
+	margin-left: 10px;
+	text-align:left;
+}
+
+header #logo span
+{
+	color:#7FB298;
+	display:block;
+	font-weight:bolder;
+	margin-bottom:10px;
+	position:relative;
+	right:20px;
+	text-align:center;
+	width:100%;
+}
+
+header nav
+{
+	float:right;
+	margin-top:60px;
+	padding:10px 0px;
+	width:70%;
+
+}
+
+header nav ul 
+{
+	float:right;
+}
+
+header nav ul li 
+{
+	display:inline-block;
+	list-style:none;
+	margin-bottom:10px;
+	margin-left:20px;
+}
+
+header nav ul li a
+{
+	color:white;
+	font-size:1.3rem;
+	font-weight: bold;
+	font-weight:bold;
+	margin-right: 10px;
+}
+
+/*-----MAIN-----*/
+#main
+{
+	overflow:hidden;
+}
+
+/*Slideshow*/
+#main #slideshow 
+{
+	float:left;
+	margin-bottom:20px;
+	overflow:hidden;
+	width:100%;
+}
+
+#main #slideshow .thumb
+{
+	float:left;
+	margin-right:2%;
+	width:49%;
+}
+
+#main #slideshow article
+{
+	color:black;
+	float:left;
+	font-size:1rem;
+	text-align:justify;
+	width:49%;
+}
+
+#main #slideshow article h2
+{
+	font-size:2rem;
+	font-weight:bold;
+	text-align:left;
+}
+
+#main #slideshow article .date 
+{
+	color:#777777;
+	display:inline-block; 
+	font-size:.8rem;
+	font-weight:500;
+	margin-bottom:10px;
+	margin-right:3px;
+}
+
+#main #slideshow article .post-categories
+{
+	display:inline-block;
+	font-size:.8rem;
+	font-weight:500;
+	list-style:none;
+}
+
+#main #slideshow .slidesjs-pagination li
+{
+	background:#499C72;
+	display:inline-block;
+	height:20px;
+	margin-right:10px;
+	width:20px;
+}
+
+#main #slideshow .slidesjs-pagination li a 
+{
+	display:block;
+	font-size:0pt;
+	height:20px;
+	width:20px;
+}
+
+#main #slideshow .slidesjs-pagination li .active
+{
+	background:#002E17;
+}
+
+/*MAIN*/
+
+#main #articles_list
+{
+	clear:both;
+	float:left;
+	width:75%;
+}
+
+#main #articles_list article
+{
+	border-bottom:1px solid #006632;
+	margin-bottom:40px;
+	margin-right:4%;
+	overflow:hidden;
+	padding-bottom:40px;
+}
+
+#main #articles_list article .thumb
+{
+	float:left;
+	margin-bottom:2%;
+	margin-right:4%;
+	width:35%;
+}
+
+#main #articles_list article .thumb img
+{
+	height:100%;
+	width:100%;
+}
+
+#main #articles_list article h2 
+{
+	color: #006632;
+	font-size:1.5rem;
+	font-weight:bold;
+	margin-bottom: 0.5rem;
+}
+
+#main #articles_list article h2 a 
+{
+	color:#25945C;
+	font-weight: bold;
+}
+
+#main #articles_list article h2 a:hover 
+{
+	color:#006632;
+	text-decoration:none;
+}
+
+#main #articles_list article .extract 
+{
+	color:black;
+	text-align:justify;
+}
+
+#main #articles_list article .date 
+{
+	color:#777777;
+	font-size:.8rem;
+	margin-bottom:10px;
+}
+
+#main #articles_list article .date ul
+{ 
+	display:inline-block;
+	list-style:none;
+}
+
+#main #articles_list article .date ul li
+{ 
+	display:inline-block;
+}
+
+#main #articles_list #pagination
+{
+	margin-bottom:40px;
+	width:100%;
+}
+
+#main #articles_list #pagination p
+{
+	text-align:center;
+}
+
+#main #articles_list #pagination p a
+{
+	display:inline-block;
+	font-size:1.5rem;
+	font-weight:bold;
+	margin:0px 20px;
+}
+
+/*Aside*/
+#main aside 
+{
+	float:left;
+	width:25%;
+}
+
+#main .widget 
+{
+	width:100%;
+}
+
+.widget
+{
+	display:block;
+	float:left;
+	margin-bottom:50px;
+}
+
+.widget h3
+{
+	color:#006632;
+	font-size:1.4rem;
+	font-weight:400;
+	margin-bottom:10px;
+}
+
+.widget ul li
+{
+	list-style:none;
+	margin-bottom:10px;
+}
+
+.widget ul li a 
+{
+	color:#777777;
+	font-size:.9rem;
+}
+
+.widget ul li a:hover
+{
+	color:#006632;
+	text-decoration:none;
+}
+
+/*Footer*/
+footer
+{
+	width:85%;
+}
+
+footer .widget 
+{
+	width:25%;
+}
+
+footer #copyright 
+{
+	clear:both;
+	color:#006632;
+	font-size:.9rem;
+	padding:10px;
+	text-align:center;
+	width:100%;
+}
+
+/*Blog*/
+#main #articles_list #cat_name 
+{
+	border-bottom:1px solid #006632;
+	color:#006632;
+	font-size:2rem;
+	font-weight:500;
+	margin-bottom:30px;
+	margin-right:30px;
+	padding-bottom:10px;
+}
+
+/* Estilos para el botón "Ir arriba" */
+.ir-arriba
+{
+	background: #006632;
+	border-radius: 15%;
+	bottom: 20px;
+	color: white;
+	cursor: pointer;
+	display: none;
+	font-size: 20px;
+	padding: 20px;
+	position: fixed;
+	right: 20px;
+}
+
+/* COMENTARIOS DISQUS */
+
+#main #articles_list #comentarios > h3 
+{
+	color:#006632;
+	font-size:1.3rem;
+	font-weight:500;
+	margin-bottom:20px;
+}
+
+#main #articles_list #caja_comentarios
+{
+	background:#DBF7DC;
+}
+
+#disqus_thread
+{
+	padding:0.8rem;
+}
+
