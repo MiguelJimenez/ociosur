@@ -11,7 +11,7 @@
 				</a></div>
 
 				<hgroup><h2><a href="<?php the_permalink();?>"><?php the_title();?></a></h2></hgroup>
-				<div class="date"><?php the_time('j \d\e\ F \d\e\ Y');?> en <span><?php the_category(', ');?></span></div>
+				<div class="date"><?php the_time('j \d\e\ F \d\e\ Y');?> en <span><?php the_category(', ');?> | <?php the_tags(' ');?></span></div>
 				<div class="extract"><?php the_excerpt();?></div>
 			</article>
 		

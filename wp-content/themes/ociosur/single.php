@@ -8,7 +8,7 @@
 			<article>
 
 				<hgroup><h2><?php the_title();?></h2></hgroup>
-				<div class="date"><?php the_time('j \d\e\ F \d\e\ Y');?> en <span><?php the_category(', ');?></span></div>
+				<div class="date"><?php the_time('j \d\e\ F \d\e\ Y');?> en  <span><?php the_category(', ');?> | <?php the_tags(' ');?></span></div>
 				<div class="extract"><?php the_content();?></div>
 			</article>
 		
